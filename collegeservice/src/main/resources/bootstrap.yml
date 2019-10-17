@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: collegeservice
+server:
+  port: 9991
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

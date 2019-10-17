@@ -1,0 +1,5 @@
+spring:
+  application:
+     name: college-org-service
+server:
+  port: 9992
